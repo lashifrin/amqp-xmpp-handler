@@ -1,0 +1,12 @@
+{application, xmpp_talker,
+ [
+  {description, ""},
+  {vsn, "3"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { xmpp_talker_app, []}},
+  {env, []}
+ ]}.

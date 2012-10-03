@@ -1,0 +1,1 @@
+{"src/*", [debug_info, {warn_format, 1}, {i, "/Users/leonidshifrin/exmpp/include"}, {i, "/Users/leonidshifrin/erlang"}, {i, "/Users/leonidshifrin/erlang/amqp_client/deps"}, {outdir, "ebin"}]}.

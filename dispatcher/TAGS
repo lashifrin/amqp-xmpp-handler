@@ -1,0 +1,88 @@
+
+src/dispatcher.erl,97
+start(15,220
+stop(18,267
+restart(21,312
+off(24,346
+reload_module(28,385
+reload_code(46,848
+
+src/dispatcher_app.erl,187
+-define(MAX_RESTART19,324
+-define(MAX_TIME20,352
+start_ep_proc(23,430
+start_xmpp_proc(28,615
+start_dummy_proc(32,750
+start(38,1013
+stop(43,1190
+init(50,1392
+get_app_env(139,3898
+
+src/dispatcher_broker.erl,180
+-record(conn19,327
+-record(state28,557
+start_link(35,636
+init(38,715
+handle_call(97,3008
+handle_cast(100,3076
+handle_info(104,3128
+terminate(158,5406
+code_change(162,5491
+
+src/dispatcher_ep.erl,186
+-record(state26,392
+start_link(32,474
+init(37,604
+handle_event(79,2247
+handle_sync_event(84,2416
+handle_info(89,2581
+terminate(121,3894
+code_change(126,4027
+state_init(131,4144
+
+src/echo_worker.erl,131
+start(29,884
+init(38,1280
+handle_info(44,1509
+handle_call(50,1739
+handle_cast(56,1981
+terminate(72,2609
+code_change(78,2846
+
+src/test_worker.erl,131
+start(29,884
+init(39,1323
+handle_info(46,1610
+handle_call(53,1903
+handle_cast(60,2208
+terminate(78,2963
+code_change(84,3200
+
+src/xmpp_dummy_ep.erl,186
+-record(state26,392
+start_link(33,475
+init(37,551
+handle_event(79,2194
+handle_sync_event(84,2363
+handle_info(89,2528
+terminate(121,3841
+code_change(126,3974
+state_init(131,4091
+
+src/xmpp_talker.erl,208
+-record(state42,1786
+-define(SERVER51,1989
+start_link(77,3612
+init(95,4746
+handle_info(108,5153
+handle_call(139,6317
+handle_cast(150,6867
+terminate(199,8767
+code_change(205,9051
+restart_me(212,9367
+
+src/xmpp_talker_sup.erl,77
+-define(CHILD14,226
+start_link(20,466
+start_xmpp_proc(24,587
+init(30,828
